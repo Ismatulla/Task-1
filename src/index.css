@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+}
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  padding: 0;
+  background-color: rgb(246, 242, 242);
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+}
+.profile img {
+  border-radius: 50%;
+}
+
+.bg-img {
+  background-image: url("https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODJ8fGJhY2tncm91bmQlMjBpbWd8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+  padding-bottom: 200px;
+  padding-top: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.input_icon{
+  border-radius:50%;
+  width:2.5rem;
+  height:2.5rem;
+  cursor:pointer;
+}
+.input{
+  border:none;
+  outline:none;
+  display:flex;
+  flex-grow:0.9
+}
